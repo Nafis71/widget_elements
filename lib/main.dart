@@ -32,6 +32,7 @@ class Home extends StatelessWidget {
         flexibleSpace: Container(
           decoration: const BoxDecoration(
             image: DecorationImage(
+              opacity: 0.8,
               image: NetworkImage("https://nnmedia.nation.africa/uploads/2021/05/Netflix.jpeg"),fit: BoxFit.cover
             )
           ),
@@ -48,6 +49,7 @@ class Home extends StatelessWidget {
       body: Container(
         decoration: const BoxDecoration(
           image: DecorationImage(
+            opacity: 0.65,
             image: NetworkImage("https://help.nflxext.com/0af6ce3e-b27a-4722-a5f0-e32af4df3045_what_is_netflix_5_en.png"),fit: BoxFit.fitHeight,
           )
         ),
