@@ -166,9 +166,9 @@ class Home extends StatelessWidget {
                         borderRadius: BorderRadius.circular(10),
                         boxShadow: [
                           BoxShadow(
-                            color: Colors.grey.withOpacity(0.25),
+                            color: Colors.grey.withOpacity(0.2),
                             spreadRadius: 5,
-                            blurRadius: 7,
+                            blurRadius: 10,
                             offset: const Offset(0,1),
                           ),
                         ],
@@ -205,9 +205,9 @@ class Home extends StatelessWidget {
                         borderRadius: BorderRadius.circular(10),
                         boxShadow: [
                           BoxShadow(
-                            color: Colors.grey.withOpacity(0.25),
+                            color: Colors.grey.withOpacity(0.2),
                             spreadRadius: 5,
-                            blurRadius: 7,
+                            blurRadius: 10,
                             offset: const Offset(0,1),
                           ),
                         ],
@@ -243,9 +243,9 @@ class Home extends StatelessWidget {
                         borderRadius: BorderRadius.circular(10),
                         boxShadow: [
                           BoxShadow(
-                            color: Colors.grey.withOpacity(0.25),
+                            color: Colors.grey.withOpacity(0.2),
                             spreadRadius: 5,
-                            blurRadius: 7,
+                            blurRadius: 10,
                             offset: const Offset(0,1),
                           ),
                         ],
@@ -298,7 +298,7 @@ class Home extends StatelessWidget {
                           color: Colors.grey.withOpacity(0.2),
                           spreadRadius: 5,
                           blurRadius: 7,
-                          offset: const Offset(0,3),
+                          offset: const Offset(0,1),
                         ),
                       ],
                       image: DecorationImage(
@@ -322,7 +322,7 @@ class Home extends StatelessWidget {
                           color: Colors.grey.withOpacity(0.2),
                           spreadRadius: 5,
                           blurRadius: 7,
-                          offset: const Offset(0,3),
+                          offset: const Offset(0,1),
                         ),
                       ],
                       image: DecorationImage(
@@ -345,7 +345,7 @@ class Home extends StatelessWidget {
                           color: Colors.grey.withOpacity(0.2),
                           spreadRadius: 5,
                           blurRadius: 7,
-                          offset: const Offset(0,3),
+                          offset: const Offset(0,1),
                         ),
                       ],
                       image:  DecorationImage(
